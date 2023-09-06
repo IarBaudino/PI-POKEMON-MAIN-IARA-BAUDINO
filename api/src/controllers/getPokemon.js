@@ -68,5 +68,5 @@ const getPokemon = async (name) => { //fn asincrona, va a buscar a todos los pok
 
 
 module.exports = {
-    getPokemon,
+    getPokemon
 }
