@@ -1,0 +1,43 @@
+.background {
+  border: solid blue;
+  background-image: url('../../imagenes/pxfuel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta el tamaño de la imagen para que cubra toda la pantalla */
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+  .tituloUno{
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    
+  }
+
+  .button {
+    border: solid blue;
+    cursor: pointer;
+    border-radius: 15px;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 9px 29px 9px 29px;
+    margin-left: 15%;
+    }.button:hover {
+      color:#5442f5;
+      transition: .3s;
+      transform: scaleX(50px);
+  }
